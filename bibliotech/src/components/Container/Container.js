@@ -1,3 +1,3 @@
 import styled from "styled-components";
 
-export const Container = styled.SafeAreaView``;
+export const ContainerGradient = styled()
