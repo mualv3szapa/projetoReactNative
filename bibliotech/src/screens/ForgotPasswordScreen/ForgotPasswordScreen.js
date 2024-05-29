@@ -8,8 +8,10 @@ import { Input } from "../../components/Input/Input";
 import { ButtonDark, ButtonText } from "../../components/Button/Style";
 import { LinkButton, LinkText } from "../../components/Link/Style";
 import { LogoLogin } from "../../components/Logo/Style";
+import { Title } from "../../components/Title/Style";
+import { TextContent } from "../../components/Text/Style";
 
-export const LoginPage = () => {
+export const ForgotPasswordScreen = () => {
   return (
     <Container>
       <GradientContainer>
@@ -18,17 +20,21 @@ export const LoginPage = () => {
           height={160}
           source={require("../../assets/LOGO.png")}
         />
+        <Title>Recuperação de Senha</Title>
+        <TextContent>
+          Digite o endereço de email para qual email enviaremos o link de
+          recuperação de senha.
+        </TextContent>
+
         <ContainerInput>
           <Input placeholder={"EMAIL"} />
-          <Input placeholder={"SENHA"} />
         </ContainerInput>
-
         <ButtonDark>
-          <ButtonText>LOGIN</ButtonText>
+          <ButtonText>ENVIAR</ButtonText>
         </ButtonDark>
 
         <LinkButton>
-          <LinkText>Esqueceu sua senha?</LinkText>
+          <LinkText>Cancelar</LinkText>
         </LinkButton>
       </GradientContainer>
     </Container>
