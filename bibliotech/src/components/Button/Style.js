@@ -8,7 +8,7 @@ export const ButtonText = styled.Text`
   vertical-align: center;
 `;
 
-export const ButtonDark = styled.SafeAreaView`
+export const ButtonDark = styled.TouchableOpacity`
   width: 80%;
   height: 56px;
   background-color: #012141;
@@ -17,7 +17,7 @@ export const ButtonDark = styled.SafeAreaView`
   align-items: center;
 `;
 
-export const ButtonLight = styled.SafeAreaView`
+export const ButtonLight = styled.TouchableOpacity`
   width: 40%;
   height: 56px;
   background-color: #2c7da0;
@@ -26,7 +26,7 @@ export const ButtonLight = styled.SafeAreaView`
   align-items: center;
 `;
 
-export const ButtonDarkSmall = styled.SafeAreaView`
+export const ButtonDarkSmall = styled.TouchableOpacity`
   width: 45%;
   height: 56px;
   background-color: #001b21;
@@ -35,7 +35,7 @@ export const ButtonDarkSmall = styled.SafeAreaView`
   align-items: center;
 `;
 
-export const ButtonLightSmall = styled.SafeAreaView`
+export const ButtonLightSmall = styled.TouchableOpacity`
   width: 45%;
   height: 56px;
   background-color: #2c7da0;

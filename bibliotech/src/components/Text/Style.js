@@ -7,7 +7,6 @@ export const TextContent = styled.Text`
   text-align: center;
   vertical-align: center;
   width: 90%;
-  margin-top: 25px;
 `;
 
 export const TextHighlight = styled.Text`
@@ -16,4 +15,12 @@ export const TextHighlight = styled.Text`
   color: #fff;
   text-align: center;
   vertical-align: center;
+`;
+
+export const TextFieldBox = styled.View`
+  height: fit-content;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
 `;

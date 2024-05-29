@@ -1,13 +1,17 @@
 import { ContainerRow } from "../Container/Style";
-import { InputBox, InputText, TextContent, TextHighlight } from "./Style";
+import {
+  InputBox,
+  InputText,
+  TextContent,
+  TextFieldBox,
+  TextHighlight,
+} from "./Style";
 
-export const Input = ({ label, content }) => {
+export const TextField = ({ label, content }) => {
   return (
-    <>
-      <ContainerRow>
-        <TextHighlight>{label}</TextHighlight>
-        <TextContent>{content}</TextContent>
-      </ContainerRow>
-    </>
+    <TextFieldBox>
+      <TextHighlight>{label}</TextHighlight>
+      <TextContent>{content}</TextContent>
+    </TextFieldBox>
   );
 };

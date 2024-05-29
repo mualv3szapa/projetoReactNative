@@ -16,6 +16,13 @@ export const ContainerRow = styled.View`
   justify-content: space-between;
   align-items: center;
 `;
+export const ContainerColumn = styled.View`
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+`;
 
 export const ContainerInput = styled.View`
   width: 100%;

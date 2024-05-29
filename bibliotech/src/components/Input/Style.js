@@ -6,7 +6,8 @@ export const InputBox = styled.View`
   border-bottom-color: #a1d9df;
   border-bottom-width: 1px;
   width: 80%;
-  margin-bottom: 25px;
+  min-width: 50vw;
+  margin-top: 25px;
 `;
 
 export const InputText = styled.TextInput.attrs({
